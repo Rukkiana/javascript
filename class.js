@@ -35,6 +35,12 @@ let text ="programming"
 console.log(text.substring(1,3));
 console.log(text.substr(1,4));
 
+let jav = 'JavaScript'
+console.log(string.substr(4,6))    // Script
+
+let country = 'Finland'
+console.log(country.substr(3, 4))   // land
+
 
 let day = "30 Days of javascript"
 console.log(day.split());
@@ -60,6 +66,7 @@ let div = numOne / numTwo
 let reminder = numOne % numTwo
 let powerOf = numOne ** numTwo
 console.log(sum, diff, mult, reminder, powerOf );
+
 
 
 
@@ -124,6 +131,74 @@ console.log(num);
 let isMan = true;
 isMan ? console.log("yes,he is man"):
 console.log("no, he is not a man");
+
+
+
+//symbol operators
+const mySymbol = Symbol()
+console.log(mySymbol)
+const newSymbol=Symbol("hi")
+console.log(newSymbol)
+
+//concatenation operation
+const love="i love"
+const sentence=love + " "+" studing"+" " + day
+console.log(sentence)
+const backtickSentence=`${love} studing ${day}`
+console.log(backtickSentence);
+const myArray=["rukkayya","munirah","grace"]
+console.log(myArray);
+myArray[0]="salamat";
+console.log(myArray);
+
+
+//MATHS OBJECT
+const four=4
+console.log(Math.sqrt(four));
+console.log(Math.pow(four, 2));
+console.log(Math.PI);
+console.log(Math.random());
+console.log(Math.random () * 1);
+console.log(Math.max(4, 3, 9, 0));
+// console.log(Math.floor(Math.random() * 10 + 1)); 
+let random=Math.random() * 10 + 1;
+const click =random<= 10 ?random :10;
+console.log(click.toFixed(4));
+// const pi =Math.PI
+// console.log()
+
+//math.ciel is for promotion
+//math.round is does d normal round up
+
+let s = '   30 Days Of JavaScript   '
+
+console.log(s)
+console.log(string.trim(' '))
+
+let firstName = ' Asabeneh '
+
+console.log(firstName)
+console.log(firstName.trim())  // still removes spaces at the beginning and the end of the string
+
+//string.charCodeAt(index)
+let str = '30 Days Of JavaScript'
+console.log(str.charCodeAt(3))        // D ASCII number is 68
+
+let lastInd = string.length - 1
+console.log(string.charCodeAt(lastIndex)) // t ASCII is 116
+
+//concat
+let days = '30'
+console.log(string.concat("Days", "Of", "JavaScript")) // 30DaysOfJavaScript
+
+let continent = 'Fin'
+console.log(continent.concat("land")) // Finland
+
+
+
+
+
+
 
 
 
