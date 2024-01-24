@@ -47,7 +47,7 @@ switch(day){
         case 'tuesday':
         console.log('today is tuesday')
         break;
-        case 'wednesday':
+        case 'wednesday': 
         console.log('today is wednesday')
         break;
         case 'thursday':
